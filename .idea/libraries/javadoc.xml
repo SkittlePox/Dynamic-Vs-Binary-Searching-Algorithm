@@ -1,12 +1,7 @@
 <component name="libraryTable">
   <library name="javadoc">
     <CLASSES />
-    <JAVADOC>
-      <root url="file://$PROJECT_DIR$/../../Java Libs/charts4j-1.3/javadoc" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/../../Java Libs/charts4j-1.3/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../Java Libs/charts4j-1.3/src/test/java" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

@@ -27,7 +27,7 @@ public class binsearch {
                 if ((upper - lower) % 2 == 0) {
                     searchpt = (upper - lower) / 2 + lower;
                 } else {
-                    searchpt = (upper - lower + 1) / 2;
+                    searchpt = ((upper - lower + 1) / 2) + lower;
                 }
 
                 System.out.println("Searchpt is now " + searchpt);
@@ -42,6 +42,8 @@ public class binsearch {
                     upper = searchpt - 1;
                     System.out.println("Element " + x + " is lower than searchpt");
                 }
+                System.out.println("Upper is " + upper);
+                System.out.println("Lower is " + lower);
                 if (upper - lower <= 1) System.out.println("Got it with " + count + " tries!");
             }
             avg += count;
