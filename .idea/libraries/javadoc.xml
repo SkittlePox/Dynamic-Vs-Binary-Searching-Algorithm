@@ -2,6 +2,11 @@
   <library name="javadoc">
     <CLASSES />
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Java Libs/jfreechart-1.0.19/experimental" />
+      <root url="file://$PROJECT_DIR$/../../Java Libs/jfreechart-1.0.19/source" />
+      <root url="file://$PROJECT_DIR$/../../Java Libs/jfreechart-1.0.19/swt" />
+      <root url="file://$PROJECT_DIR$/../../Java Libs/jfreechart-1.0.19/tests" />
+    </SOURCES>
   </library>
 </component>
